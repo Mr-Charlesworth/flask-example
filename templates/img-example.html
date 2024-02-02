@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Image Example{% endblock %}
+
+{% block content %}
+
+<h1>Remember the good old days?</h1>
+<img src="{{  url_for('static', filename='images/quake3.jpg') }}">
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}The Form Example{% endblock %}
+
+{% block content %}
+
+
+{% for result in results %}
+
+    <h1>ID: {{ result.id }} Name: {{ result.name }} Age: {{ result.age }}</h1>
+
+{% endfor %}
+
+{% endblock %}
